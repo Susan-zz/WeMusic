@@ -13,30 +13,32 @@
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#707070",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#13227a",
+    "navigationBarTitleText": "WeMusic",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
       "iconPath": "images/index.png",
-      "selectedIconPath": "images/index.png"
+      "selectedIconPath": "images/index2.png"
     },
     {
       "pagePath": "pages/playing/playing",
       "text": "播放",
       "iconPath": "images/playing.png",
-      "selectedIconPath": "images/playing.png"
+      "selectedIconPath": "images/playing2.png"
     },
     {
       "pagePath": "pages/myMsg/myMsg",
       "text": "我的",
       "iconPath": "images/myMsg.png",
-      "selectedIconPath": "images/myMsg.png"
+      "selectedIconPath": "images/myMsg2.png"
     }
-    ]
-    
+    ],
+    "color": "#707070",
+    "selectedColor": "#13227a",
+    "backgroundColor": "white"
   }
 }
