@@ -6,13 +6,37 @@
     "pages/databaseGuide/databaseGuide",
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib"
+    "pages/chooseLib/chooseLib",
+    "pages/playing/playing",
+    "pages/myMsg/myMsg"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#707070",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index.png"
+    },
+    {
+      "pagePath": "pages/playing/playing",
+      "text": "播放",
+      "iconPath": "images/playing.png",
+      "selectedIconPath": "images/playing.png"
+    },
+    {
+      "pagePath": "pages/myMsg/myMsg",
+      "text": "我的",
+      "iconPath": "images/myMsg.png",
+      "selectedIconPath": "images/myMsg.png"
+    }
+    ]
+    
   }
 }
